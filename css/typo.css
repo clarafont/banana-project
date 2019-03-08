@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Source+Serif+Pro:400,700');
+@import url("https://use.typekit.net/sla8hyt.css");
+
+h1 {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 3em;
+  font-weight: bold;
+  color: #0040D5;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.8em;
+  color: #B6BDCA;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+h3 {
+font-family: 'gastromond', sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 30px;
+color: #0040D5;
+margin: 0;
+margin-bottom: 15px;
+}
+.vignette {
+  margin-left: 140px;
+
+}
+h4  {
+  font-family: 'Source Serif Pro';
+  font-weight: bold;
+  font-size: 32px;
+  color: #0040D5;
+  text-align: right;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+p {
+font-family: 'Source Serif Pro';
+line-height: 40px;
+font-size: 20px;
+color: #001744;
+margin: 0;
+}
