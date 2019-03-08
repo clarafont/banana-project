@@ -96,7 +96,10 @@
 
 }
 
-
+hr {
+	margin-bottom: 80px;
+	border: 1px solid #DFE2E5;
+}
 
 .btn-2 {
 	font-family: 'Raleway', sans-serif;
