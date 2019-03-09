@@ -1,0 +1,41 @@
+a.menu {
+  text-decoration: none;
+    color: #001744;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 18px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+a.menu::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 8px;
+    background-color: #0040D5;
+    border-radius: 100px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+a:hover {
+    outline-width: 0;
+}
+.menu {
+    color: #413B2A;
+    cursor: pointer;
+}
+a:hover:after {
+    width: 50%;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+img.fleches{
+}
+img.fleches2{
+  transform: rotate(180deg);
+}
